@@ -9,10 +9,7 @@ tests/__pycache__/*
 # Python
 __pycache__
 .ipynb_checkpoints
+.python-version
 
 # environment variables
 .env
-
-# data directory due to potentially large files
-data/*
-!data/.gitkeep

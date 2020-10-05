@@ -1,6 +1,6 @@
 {
     "project_name": "project_name",
-    "__repo_name": "{{ cookiecutter.project_name|lower()|replace(' ', '-')|replace('_', '-') }}",
+    "__repo_name": "{{ cookiecutter.project_name|lower|replace(' ', '-')|replace('_', '-') }}",
     "version": "0.1.0",
     "description": "",
     "author_name": "Ian Scott Knight",

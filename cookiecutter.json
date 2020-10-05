@@ -1,4 +1,9 @@
 {
     "project_name": "project_name",
-    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}"
+    "__repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '-').replace('_', '-') }}",
+    "version": "0.1.0",
+    "description": "",
+    "author_name": "Ian Scott Knight",
+    "author_email": "isk@alumni.stanford.edu",
+    "license": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"]
 }

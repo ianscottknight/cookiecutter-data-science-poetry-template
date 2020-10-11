@@ -1,4 +1,6 @@
-Project Organization
+# {{ cookiecutter.project_name }}
+
+## Project Organization
 ------------
 
     ├── data

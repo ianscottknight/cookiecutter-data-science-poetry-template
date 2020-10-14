@@ -16,6 +16,7 @@
     ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
     │                         the creator's initials, and a short `-` delimited description, e.g.
     │                         `1.0-jqp-initial-data-exploration`.
+    │   └── fix_notebook_imports.py
     │
     ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
     │
@@ -24,6 +25,8 @@
     │
     └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module
+        │
+        ├── util.py        <- Shared functions and helpful file paths
         │
         ├── data           <- Scripts to download or generate data
         │   └── make_dataset.py

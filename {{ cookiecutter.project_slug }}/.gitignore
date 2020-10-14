@@ -15,5 +15,5 @@ __pycache__
 .env
 
 # data directory due to potentially large files
-{{cookiecutter.project_name}}/data/*/**
+{{ cookiecutter.package_name }}/data/*/**
 !.gitkeep

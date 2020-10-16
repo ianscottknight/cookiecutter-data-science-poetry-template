@@ -17,3 +17,4 @@ __pycache__
 # data directory due to potentially large files
 {{ cookiecutter.package_name }}/data/*/**
 !.gitkeep
+!__init__.py

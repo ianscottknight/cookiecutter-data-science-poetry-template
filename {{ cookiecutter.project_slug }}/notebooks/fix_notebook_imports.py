@@ -2,7 +2,7 @@
 import this file within a given jupyter notebook to allow imports from the project root dir instead of notebooks dir
 e.g., 
 Run ```import fix_notebook_imports```
-```from src import util``` is now possible 
+```from <package_name> import util``` is now possible 
 '''
 
 import os 

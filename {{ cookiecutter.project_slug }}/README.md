@@ -3,7 +3,6 @@
 {{ cookiecutter.description }}
 
 ## Project Organization
-------------
 
     │
     ├── README.md           
@@ -32,5 +31,3 @@
         │   └── raw         <- The original, immutable data dump.
         └── models          <- Model definitions, trained models, and model predictions
      
-
---------

@@ -21,7 +21,7 @@
     └── {{ cookiecutter.package_name }}
         ├── util.py         <- Shared functions and helpful file paths
         ├── make_dataset.py <- Dataset download and generation
-        ├── pipeline.py     <- Data processing pipeline to be used in train.py and predict.py
+        ├── preprocess.py   <- Data preprocessing pipeline to clean and transform data
         ├── train.py        <- Train model
         ├── predict.py      <- Make predictions using a trained model
         ├── visualize.py    <- Script to create exploratory and results-oriented visualizations
@@ -30,7 +30,7 @@
         │   ├── interim     <- Intermediate data that has been transformed.
         │   ├── processed   <- The final, canonical data sets for modeling.
         │   └── raw         <- The original, immutable data dump.
-        └── models          <- Trained and serialized models and model predictions
+        └── models          <- Model definitions, trained models, and model predictions
      
 
 
